@@ -1,0 +1,20 @@
+body {
+    background-color: #a5d5d5;
+}
+
+#ball {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#response {
+    color: white;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    position: absolute;
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+}
