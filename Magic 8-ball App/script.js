@@ -41,7 +41,7 @@
       /*Generate random number*/
       randomNum = Math.floor(8 * Math.random() + 1);
 
-      /*Pick random number*/
+      /*Pick random number and display response accordingly*/
       if (randomNum == 1) {
         canvas.insertAdjacentHTML('beforebegin', "<p id='response'>It is certain.</p>");
       } else if (randomNum == 2) {
