@@ -1,1 +1,1 @@
-##Javascript Canvas was used to create 2D graphics and CSS was used for styling and formatting.
+## Javascript Canvas was used to create 2D graphics and CSS was used for styling and formatting.
