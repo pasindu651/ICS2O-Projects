@@ -1,2 +1,2 @@
 # Zodiac Sign App
- Program that determines zodiac sign given birthday.
+Program that determines zodiac sign given birthday of user.
