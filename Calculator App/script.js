@@ -78,3 +78,4 @@ function log() {
 function reset() {
   document.getElementById("screen").value = "";
 }
+
