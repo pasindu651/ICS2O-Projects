@@ -34,6 +34,7 @@ body {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border: 0px;
+  font-family: inherit;
 }
 
 /*Use grid column template with 5 buttons per row*/
@@ -44,7 +45,7 @@ body {
   border: 0;
 }
 
-/*Add hover transition to family*/
+/*Add hover transition to buttons*/
 .buttons button {
   cursor: pointer;
   font-family: inherit;
