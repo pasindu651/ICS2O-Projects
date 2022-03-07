@@ -1,0 +1,110 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to right, #4d48c0, #56bf6d);
+}
+
+/*Add drop shadow and specify maximum width of calculator*/
+.calc {
+  max-width: 30%;
+  margin: auto;
+  text-shadow: 2px 2px 4px #000000;
+  padding-top: 3.5vh;
+}
+
+/*Size screen appropriately accordingly with height in vh*/
+#screen-container {
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  vertical-align: text-bottom;
+  height: 21vh;
+  border: 0;
+}
+
+/*Add padding, font-size, and gradient to screen*/
+#screen-container input {
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  padding-top: 2.5vh;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  background: linear-gradient(to right, #406bf6, #4d48c0);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 0px;
+}
+
+/*Use grid column template with 5 buttons per row*/
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 69vh;
+  border: 0;
+}
+
+/*Add hover transition to family*/
+.buttons button {
+  cursor: pointer;
+  font-family: inherit;
+  color: white;
+  font-size: 2vw;
+  border: 1px solid white;
+  background-color: #1b3249;
+  border: 0.1vw solid #2a4055;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #2a4055;
+}
+
+.buttons button:active {
+  background-color: #587189;
+  border-color: #587189;
+}
+
+/*Change first 5 children (buttons) have green text*/
+.buttons button:nth-child(-n+5) {
+  color: #54a77d;
+}
+
+/*Make first child have white background color*/
+.buttons button:nth-child(1) {
+  background-color: white;
+  border: 0.1vw solid white;
+  transition: background-color 0.3s;
+}
+
+/*Make first child have white text and green background on hover*/
+.buttons button:nth-child(1):hover {
+  color: white;
+  background-color: #54a77d;
+  border-color: #54a77d;
+}
+
+/*Make first child have a green background color when active*/
+.buttons button:nth-child(1):active {
+  background-color: #88ceab;
+  border-color: #88ceab;
+}
+
+/*Make 25th child (equal) have a blue background color*/
+.buttons button:nth-child(25) {
+  background-color: #406bf7;
+  border: 0.1vw solid #406bf7;
+  transition: background-color 0.3s;
+}
+
+/*Make 25th child have a purple background color*/
+.buttons button:nth-child(25):hover {
+  background-color: #4c49c1;
+  border-color: #4c49c1;
+}
+
+/*Make 25th child have light purple background color when active*/
+.buttons button:nth-child(25):active {
+  background-color: #8e8cde;
+  border-color: #8e8cde;
+}
