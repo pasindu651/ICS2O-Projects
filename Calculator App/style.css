@@ -11,7 +11,7 @@ body {
   padding-top: 3.5vh;
 }
 
-/*Size screen appropriately accordingly with height in vh*/
+/*Size screen accordingly with height in vh*/
 #screen-container {
   border-radius: 50px;
   display: grid;
@@ -66,7 +66,7 @@ body {
   border-color: #587189;
 }
 
-/*Change first 5 children (buttons) have green text*/
+/*Change first 5 children's (buttons) color to green text*/
 .buttons button:nth-child(-n+5) {
   color: #54a77d;
 }
