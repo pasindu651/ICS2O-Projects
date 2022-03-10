@@ -1,7 +1,6 @@
       /*Get user input*/
       var userBirth, signZodiac;
       userBirth = prompt("Please enter your birthday. MM/DD").split(" ")
-      signZodiac = ""
 
       /*Aries*/
       if (userBirth[0] == "March" && userBirth[1] >= 21 || userBirth[0] == "April" && userBirth[1] <= 19){
