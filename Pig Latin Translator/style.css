@@ -1,0 +1,45 @@
+* {
+  background-color: #f9dce1;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  font-weight: 500;
+}
+
+#pig-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  padding: 1vw;
+  margin: 20px;
+  font-size: 2vw;
+  font-weight: 400;  
+  border: 2px solid #a56ccb;
+  border-radius: 15px;
+  background-color: #dec0f2;
+  color: #61228c;
+} 
+
+.translator {
+  display: flex;
+  justify-content: center;
+}
+
+::placeholder { 
+  color: #a56ccb;
+  font-weight: 300;  
+}
+
+textarea:focus {
+    outline: none;
+}
