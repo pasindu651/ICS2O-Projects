@@ -66,7 +66,7 @@ body {
   border-color: #587189;
 }
 
-/*Change first 5 children's (buttons) color to green text*/
+/*Change color of first 5 children (buttons) to green text*/
 .buttons button:nth-child(-n+5) {
   color: #54a77d;
 }
