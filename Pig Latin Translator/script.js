@@ -1,4 +1,3 @@
-var translated = "";
 //Get input fields by id
 const sentence = document.getElementById('sentence');
 const translation = document.getElementById('translation');
