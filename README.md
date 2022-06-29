@@ -6,3 +6,6 @@ Various projects created throughout ICS2O course at Colonel By Secondary School
 <img alt="Magic 8-Ball" align="left" width="500" src="https://i.ibb.co/xhwTzWd/Magic-8-ball.png">
 <img alt="Calculator" align="left" width="500" src="https://i.ibb.co/p4xV7vM/calculator.png">
 <img alt="Pig Latin Translator" align="left" width="500" src="https://i.ibb.co/bJKVgc6/Screenshot-241.png">
+<img alt="Hangman Game" align="left" width="500" src="https://i.ibb.co/YRBKSCM/hangman.png">
+
+
