@@ -1,0 +1,216 @@
+body {
+  font-family: 'Kalam', cursive;
+  background-color: #6cc3ca;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+
+button { 
+  font-family: inherit;
+  outline: 0;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  padding: 7px 16px;
+  min-height: 36px;
+  min-width: 36px;
+  color: black;
+  background-color: #fce348;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+  margin-top: 0;
+  margin-bottom: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#buttonControls {
+  text-align: center;
+}
+
+
+button:hover {
+  background-color: gold;
+}
+
+button:active {
+  background-color: #fff5bd;
+}
+
+#gameArea {
+  text-align: center;
+}
+
+#lettersPicked {
+  margin-top: 20%;
+}
+
+#remainingGuesses {
+  position: absolute;
+  top: 0;
+  right: 3;
+}
+
+img {
+  max-width: 20%;
+  top: 80px;
+  
+  display: block;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#drawingContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+.modal-container-center {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.modal-container {
+  background-color: rgba(0,0,0,0.3);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal {
+  color: black;
+  background-color: white;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.modal-container.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#drawingContainer.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#lettersPicked.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#wordsHidden.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#buttonControls.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#remainingGuesses.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#startBtn.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.homeScreenButtons {
+  
+}
+
+#howTo.hide {
+  opacity: 0;
+  pointer-events: none; 
+}
+
+#about.hide {
+  opacity: 0;
+  pointer-events: none; 
+}
+
+#alreadyGuessed {
+  position: fixed;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  min-width: 250px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+
+#alreadyGuessed.show {
+  visibility: visible;
+  animation: fadein 500ms,fadeout 500ms 2500ms;
+}
+
+
+@keyframes fadein {
+  from{
+    opacity: 0;
+    bottom: 0;
+  }
+  to {
+    opacity: 1;
+    bottom: 10%;
+  }
+}
+
+@keyframes fadeout {
+  from{
+    opacity: 1;
+    bottom: 10%;
+  }
+  to {
+    opacity: 0;
+    bottom: 0;
+  }
+}
