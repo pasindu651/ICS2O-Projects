@@ -1,7 +1,7 @@
 //Create a class called "manDrawing" which will be responsible for storing and handling the hangman graphics
 //Export the class so that it can be accessible in the "script.js" file.
 export default class manDrawing {
-    //Whent the class is called, it will take remainingGuesses as an argument.
+    //When the class is called, it will take remainingGuesses as an argument.
     constructor(remainingGuesses) {
         this.remainingGuesses = remainingGuesses;
         this.drawingContainer = document.getElementById('drawingContainer');
